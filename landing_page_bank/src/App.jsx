@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <div className='bg-primary w-full overflow-hidden'>
+        
         <div className={`${style.paddingX} ${style.paddingX}`}>
           <div className={`${style.boxWidth}`}>
             <NavBar />
@@ -40,8 +41,6 @@ function App() {
             <Footer />
           </div>
         </div>
-
-
 
       </div>
     </>
