@@ -2,8 +2,7 @@ import { discount, robot } from "../assets";
 import style from "../style";
 import GetStarted from "./GetStarted";
 
-function Hero() {
-  return (
+const Hero = () => ( 
     <section id="home" className={`flex md:flex-row flex-col ${style.paddingY}`}>
       <div className={`flex-1 ${style.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
 
@@ -50,7 +49,6 @@ function Hero() {
         <GetStarted />
       </div>
     </section>
-  );
-}
+)
 
 export default Hero;
