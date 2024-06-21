@@ -1,4 +1,4 @@
- import { features } from "../constants";
+ //import { features } from "../constants";
  import style, { layout } from "../style";
  import Button from './Button'; 
 
