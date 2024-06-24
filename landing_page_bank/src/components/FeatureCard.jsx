@@ -13,6 +13,7 @@ const FeatureCard = (features) => (
         {features.content}
       </p>
     </div>
+    
   </div>
 );
 
