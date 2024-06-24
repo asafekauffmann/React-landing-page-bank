@@ -1,7 +1,7 @@
- //import { features } from "../constants";
- import style, { layout } from "../style";
- import Button from './Button'; 
-
+import { features } from "../constants";
+import style, { layout } from "../style";
+import Button from './Button'; 
+import FeatureCard from "./FeatureCard";
 
 const Business = () => (
   <section id="features" className={layout.section}>
@@ -19,7 +19,9 @@ const Business = () => (
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
-
+      {features.map((feature, index) => (
+        <FeatureCard key={feature.id} {...feature} index={index} />
+      ))}
     </div>
 
   </section>
